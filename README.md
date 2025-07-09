@@ -45,5 +45,15 @@ java -cp "bin;lib/mysql-connector-j-9.3.0.jar" view.ClienteGUI
 
 ## Autor
 
+cadastro-clientes/
+├── src/
+│   ├── model/         # Classe Cliente
+│   ├── service/       # ClienteDAO (acesso ao banco)
+│   ├── view/          # Interface Swing
+├── lib/               # mysql-connector
+├── bin/               # Arquivos compilados
+└── README.md
+
+
 Projeto criado por Rodrigo Amaral
 
